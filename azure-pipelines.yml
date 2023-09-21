@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: windows-latest
+  environment: Windows testbox
 
 steps:
 - script: echo Hello, world!
